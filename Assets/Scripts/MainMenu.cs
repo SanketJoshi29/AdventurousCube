@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("Cube");
+        SceneManager.LoadScene("LevelSelection");
     }
 
     public void Exit()
