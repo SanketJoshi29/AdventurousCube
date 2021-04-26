@@ -3,9 +3,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ButtonFunc : MonoBehaviour
-{
-    public void Restart()
+{   
+    public void RestartButton()
     {
-        SceneManager.LoadScene("Cube");
+        FindObjectOfType<GameManager>().Restart();
     }
 }
