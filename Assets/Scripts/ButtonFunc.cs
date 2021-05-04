@@ -8,4 +8,9 @@ public class ButtonFunc : MonoBehaviour
     {
         FindObjectOfType<GameManager>().Restart();
     }
+
+    public void LevelPage()
+    {
+        SceneManager.LoadScene("LevelSelection");
+    }
 }
