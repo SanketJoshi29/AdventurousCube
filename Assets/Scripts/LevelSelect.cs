@@ -7,4 +7,8 @@ public class LevelSelect : MonoBehaviour
     {
         SceneManager.LoadScene("Cube");
     }
+    public void SideLevel()
+    {
+        SceneManager.LoadScene("LevelSelectNight");
+    }
 }
