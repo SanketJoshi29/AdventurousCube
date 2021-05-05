@@ -11,6 +11,6 @@ public class ButtonFunc : MonoBehaviour
 
     public void LevelPage()
     {
-        SceneManager.LoadScene("LevelSelection");
+        SceneManager.LoadScene("LevelSelectDay");
     }
 }
