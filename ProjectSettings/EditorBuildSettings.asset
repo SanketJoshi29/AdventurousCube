@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelectDay.unity
     guid: 6a30aedfb82193c4792099c435cee19b
   - enabled: 1
-    path: Assets/Scenes/Cube.unity
+    path: Assets/Scenes/Green Day/Cube.unity
     guid: 6d1d16074e20a214cb88449745a0a100
   - enabled: 1
     path: Assets/Scenes/LevelSelectNight.unity
