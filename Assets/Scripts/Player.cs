@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
     public Rigidbody rb;
     public float moveForward = 500f;
     public float moveSideWays = 500f;
-    public Vector3 jump;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -30,12 +30,7 @@ public class Player : MonoBehaviour
         
         if(Input.GetKey("space") && transform.position.y <= 2f)
         {
-            rb.AddForce(0 , 40f * Time.deltaTime , 0 , ForceMode.VelocityChange);
-        }
-
-        if(rb.position.y < -1f)
-        {
-            FindObjectOfType<GameManager>().EndGame();
+            rb.AddForce(new Vector3(0, 0.75f, 0), ForceMode.Impulse);
         }
     }
     
