@@ -11,6 +11,11 @@ public class ButtonFunc : MonoBehaviour
 
     public void LevelPage()
     {
-        SceneManager.LoadScene("LevelSelectDay");
+        SceneManager.LoadScene("GDLevel");
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
