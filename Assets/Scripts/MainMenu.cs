@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("LevelSelectDay");
+        SceneManager.LoadScene("GDLevel");
     }
 
     public void Exit()

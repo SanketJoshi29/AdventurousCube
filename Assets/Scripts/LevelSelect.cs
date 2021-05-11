@@ -5,15 +5,15 @@ public class LevelSelect : MonoBehaviour
 {
     public void LevelOne()
     {
-        SceneManager.LoadScene("Cube");
+        SceneManager.LoadScene("GD1");
     }
-    public void SideLevel1()
+    public void SideLevelForward()
     {
-        SceneManager.LoadScene("LevelSelectNight");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void SideLevel0()
+    public void SideLevelBackward()
     {
-        SceneManager.LoadScene("LevelSelectDay");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
