@@ -45,6 +45,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Green Day/GD8.unity
     guid: f318c5e44f048d940aa6b02cd61b9698
   - enabled: 1
+    path: Assets/Scenes/Green Day/GD9.unity
+    guid: aaa0b04f98daaf44a8f0a9672b798d31
+  - enabled: 1
+    path: Assets/Scenes/Green Day/GD10.unity
+    guid: 4887ffabaf28d90418f204b34a8c841d
+  - enabled: 1
+    path: Assets/Scenes/Green Day/GD11.unity
+    guid: 2c8cef67f9b486c4ba8e1345ffa815ca
+  - enabled: 1
+    path: Assets/Scenes/Green Day/GD12.unity
+    guid: b4346c5d97380d9459250ad85fc8ed1b
+  - enabled: 1
     path: Assets/Scenes/Green Day/GD13.unity
     guid: f05149b6dd8aaa848a092e6c3e2d268e
   - enabled: 1
