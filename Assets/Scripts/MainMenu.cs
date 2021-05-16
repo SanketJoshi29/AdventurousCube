@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("GDLevel");
+        SceneManager.LoadScene("GreenLevel");
     }
 
     public void Exit()
