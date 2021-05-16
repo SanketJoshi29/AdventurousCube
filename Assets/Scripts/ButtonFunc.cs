@@ -11,7 +11,7 @@ public class ButtonFunc : MonoBehaviour
 
     public void LevelPage()
     {
-        SceneManager.LoadScene("GDLevel");
+        SceneManager.LoadScene("GreenLevel");
     }
 
     public void NextScene()

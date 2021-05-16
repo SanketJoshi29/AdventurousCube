@@ -18,22 +18,26 @@ public class Player : MonoBehaviour
     {
         rb.AddForce(0,0, moveForward * Time.deltaTime);
         
-        if(Input.GetKey("d"))
-        {
-            rb.AddForce(moveSideWays * Time.deltaTime , 0 , 0 , ForceMode.VelocityChange);
-        }
+        float movX = SimpleInput.GetAxis("Horizontal");
+        //if(Input.GetKey("d"))
+        //{
+            rb.AddForce(movX * moveSideWays * Time.deltaTime , 0 , 0 , ForceMode.VelocityChange);
+        //}
 
-        if(Input.GetKey("a"))
+        /*if(Input.GetKey("a"))
         {
             rb.AddForce(-moveSideWays * Time.deltaTime , 0 , 0 , ForceMode.VelocityChange);
-        }
-        
-        if(Input.GetKey("space") && transform.position.y <= 2f)
+        }*/
+    }
+
+    public void Jump()
+    {
+        if(transform.position.y <= 2f)
         {
-            rb.AddForce(new Vector3(0, 0.75f, 0), ForceMode.Impulse);
+            rb.AddForce(new Vector3(0, 8f, 0), ForceMode.Impulse);
         }
     }
-    
+ 
     public void UnFreezeRotation()                     //Unfreeze the player rotation
     {
         rb.constraints = RigidbodyConstraints.None;

@@ -7,6 +7,9 @@ public class GameManager : MonoBehaviour
     public bool gameHasEnded = false;
     public float restartDelayTime = 1f;
     public GameObject completeLevelUI;
+    public GameObject touch;
+    public GameObject jumpButton;
+
 
     public void EndGame()
     {
@@ -26,5 +29,7 @@ public class GameManager : MonoBehaviour
     public void CompleteLevel()
     {
         completeLevelUI.SetActive(true);
+        touch.SetActive(false);
+        jumpButton.SetActive(false);
     }
 }

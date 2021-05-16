@@ -9,60 +9,57 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 96c2fd88d1a56c549a9e3361d3191765
   - enabled: 1
-    path: Assets/Scenes/GDLevel.unity
+    path: Assets/Scenes/GreenLevel.unity
     guid: 6a30aedfb82193c4792099c435cee19b
   - enabled: 1
-    path: Assets/Scenes/GNLevel.unity
-    guid: 3994689cd20d0c94e9bfbe751a18c0ed
-  - enabled: 1
-    path: Assets/Scenes/DDLevel.unity
+    path: Assets/Scenes/DesertLevel.unity
     guid: 3a623e7c76a75314fa6fd0d4c35c54cd
   - enabled: 1
     path: Assets/Scenes/DNLevel.unity
     guid: 942afbfd33b838249adbee0fb3a40547
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD1.unity
+    path: Assets/Scenes/Green/GD1.unity
     guid: 2f8db37e46dce7a4c9a55b24f58ef2e9
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD2.unity
+    path: Assets/Scenes/Green/GD2.unity
     guid: 4ad11d59a97cbef41bcbb86aad709d02
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD3.unity
+    path: Assets/Scenes/Green/GD3.unity
     guid: 88e05dbce6004aa49a5fe734e6768f8b
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD4.unity
+    path: Assets/Scenes/Green/GD4.unity
     guid: ba588f567d32c8d47bade60f2f387a2e
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD5.unity
+    path: Assets/Scenes/Green/GD5.unity
     guid: 60fab68846c69c04f80c1b680854327f
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD6.unity
+    path: Assets/Scenes/Green/GD6.unity
     guid: dd93e9ff2d597f64fbfaffc88e15bbce
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD7.unity
+    path: Assets/Scenes/Green/GD7.unity
     guid: 7c2b08056d66a1d4bbbd9328b29adfa7
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD8.unity
+    path: Assets/Scenes/Green/GD8.unity
     guid: f318c5e44f048d940aa6b02cd61b9698
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD9.unity
+    path: Assets/Scenes/Green/GD9.unity
     guid: aaa0b04f98daaf44a8f0a9672b798d31
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD10.unity
+    path: Assets/Scenes/Green/GD10.unity
     guid: 4887ffabaf28d90418f204b34a8c841d
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD11.unity
+    path: Assets/Scenes/Green/GD11.unity
     guid: 2c8cef67f9b486c4ba8e1345ffa815ca
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD12.unity
+    path: Assets/Scenes/Green/GD12.unity
     guid: b4346c5d97380d9459250ad85fc8ed1b
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD13.unity
+    path: Assets/Scenes/Green/GD13.unity
     guid: f05149b6dd8aaa848a092e6c3e2d268e
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD14.unity
+    path: Assets/Scenes/Green/GD14.unity
     guid: ec1ada0e1b1af424eb064a11ca973e63
   - enabled: 1
-    path: Assets/Scenes/Green Day/GD15.unity
+    path: Assets/Scenes/Green/GD15.unity
     guid: 4b2a2c716b39b5e4780e4e799b1c4d96
   m_configObjects: {}
