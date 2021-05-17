@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
 
     public void Jump()
     {
-        if(transform.position.y <= 2f)
+        if(transform.position.y == 1f)
         {
             rb.AddForce(new Vector3(0, 8f, 0), ForceMode.Impulse);
         }
