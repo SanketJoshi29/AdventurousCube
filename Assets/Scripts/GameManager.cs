@@ -10,7 +10,16 @@ public class GameManager : MonoBehaviour
     public GameObject touch;
     public GameObject jumpButton;
 
+    public int target = 60;
 
+    public void Update()
+    {
+        if (target != Application.targetFrameRate)
+        {
+            Application.targetFrameRate = target;
+        }
+        
+    }
     public void EndGame()
     {
         if(gameHasEnded == false)
