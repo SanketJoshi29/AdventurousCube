@@ -41,4 +41,6 @@ public class GameManager : MonoBehaviour
         touch.SetActive(false);
         jumpButton.SetActive(false);
     }
+
+
 }

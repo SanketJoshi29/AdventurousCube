@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class ButtonFunc : MonoBehaviour
 {   
+    public string nextLevel = "GD2";
+    public int levelToUnlock = 2;
+
     public void RestartButton()
     {
         FindObjectOfType<GameManager>().Restart();
@@ -14,8 +17,10 @@ public class ButtonFunc : MonoBehaviour
         SceneManager.LoadScene("GreenLevel");
     }
 
-    public void NextScene()
+    public void Next()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        PlayerPrefs.SetInt("levelReached", levelToUnlock);
+        SceneManager.LoadScene(nextLevel);
     }
+    
 }

@@ -1,19 +1,26 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelSelect : MonoBehaviour
 {
-    public void LevelOne()
+    public Button[] levelButtons;
+ 
+    void Start()
     {
-        SceneManager.LoadScene("GD1");
-    }
-    public void SideLevelForward()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        int levelReached = PlayerPrefs.GetInt("levelReached", 1);
+
+        for (int i = 0; i < levelButtons.Length; i++)
+        {
+            if (i + 1 > levelReached)
+            {
+                levelButtons[i].interactable = false;
+            }
+        }
     }
 
-    public void SideLevelBackward()
+    public void Select(string levelName)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(levelName);
     }
 }
