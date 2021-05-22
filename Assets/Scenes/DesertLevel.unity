@@ -1178,6 +1178,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356045350}
   m_CullTransparentMesh: 0
+--- !u!1 &443937014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 443937016}
+  - component: {fileID: 443937015}
+  m_Layer: 0
+  m_Name: LevelSelector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &443937015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443937014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e06aedf7f1d084b9f67c4a450673d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelButtons: []
+--- !u!4 &443937016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443937014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.840687, y: -174.87161, z: 108.43167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &475046922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,6 +1502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18e06aedf7f1d084b9f67c4a450673d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelButtons: []
 --- !u!1 &485820323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1995,7 +2040,6 @@ GameObject:
   - component: {fileID: 761154062}
   - component: {fileID: 761154061}
   - component: {fileID: 761154060}
-  - component: {fileID: 761154059}
   m_Layer: 5
   m_Name: Forward
   m_TagString: Untagged
@@ -2023,18 +2067,6 @@ RectTransform:
   m_AnchoredPosition: {x: -12, y: 0}
   m_SizeDelta: {x: 37, y: 30}
   m_Pivot: {x: 1, y: 0.5}
---- !u!114 &761154059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 761154057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18e06aedf7f1d084b9f67c4a450673d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &761154060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2078,16 +2110,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 761154059}
+      - m_Target: {fileID: 443937015}
         m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
-        m_MethodName: SideLevelForward
-        m_Mode: 1
+        m_MethodName: Select
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: DNlevel
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &761154061
@@ -2919,7 +2951,6 @@ GameObject:
   - component: {fileID: 945153100}
   - component: {fileID: 945153099}
   - component: {fileID: 945153098}
-  - component: {fileID: 945153097}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -2947,18 +2978,6 @@ RectTransform:
   m_AnchoredPosition: {x: 47, y: 0}
   m_SizeDelta: {x: 37, y: 30}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &945153097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945153095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18e06aedf7f1d084b9f67c4a450673d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &945153098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3002,16 +3021,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 945153097}
+      - m_Target: {fileID: 443937015}
         m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
-        m_MethodName: SideLevelBackward
-        m_Mode: 1
+        m_MethodName: Select
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GreenLevel
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &945153099

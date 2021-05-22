@@ -34901,12 +34901,12 @@ PrefabInstance:
     - target: {fileID: 1971490728743407306, guid: 083f5ac65f83be14ab162077fbfdc82f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -25
+      value: -34
       objectReference: {fileID: 0}
     - target: {fileID: 1971490728743407306, guid: 083f5ac65f83be14ab162077fbfdc82f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 74
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1971490728743407306, guid: 083f5ac65f83be14ab162077fbfdc82f,
         type: 3}
@@ -74408,6 +74408,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1020265453754255183, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Next
+      objectReference: {fileID: 0}
     - target: {fileID: 1020265453926376686, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}
       propertyPath: m_RaycastTarget
@@ -74427,6 +74432,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375653617009403347, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
+        type: 3}
+      propertyPath: nextLevel
+      value: GD14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375653617009403347, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
+        type: 3}
+      propertyPath: levelToUnlock
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41fbdd06d52fb74aa6b69e93b8fc986, type: 3}
