@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public GameObject touch;
     public GameObject jumpButton;
 
+    public GameObject pauseButton;
+
     public int target = 60;
 
     public void Update()
@@ -40,6 +42,7 @@ public class GameManager : MonoBehaviour
         completeLevelUI.SetActive(true);
         touch.SetActive(false);
         jumpButton.SetActive(false);
+        pauseButton.SetActive(false);
     }
 
 
