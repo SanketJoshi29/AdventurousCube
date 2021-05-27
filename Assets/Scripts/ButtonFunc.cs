@@ -10,11 +10,13 @@ public class ButtonFunc : MonoBehaviour
     public void RestartButton()
     {
         FindObjectOfType<GameManager>().Restart();
+        Time.timeScale = 1f;
     }
 
     public void LevelPage()
     {
         SceneManager.LoadScene("GreenLevel");
+        Time.timeScale = 1f;
     }
 
     public void Next()
