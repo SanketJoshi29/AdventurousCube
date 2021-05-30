@@ -13,9 +13,14 @@ public class ButtonFunc : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void LevelPage()
+    public void LevelPageGreen()
     {
         SceneManager.LoadScene("GreenLevel");
+        Time.timeScale = 1f;
+    }
+    public void LevelPageDesert()
+    {
+        SceneManager.LoadScene("DesertLevel");
         Time.timeScale = 1f;
     }
 
