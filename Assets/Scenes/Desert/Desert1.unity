@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 9dd694543a6bb054ab0cea7732e19e1c, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fdf90378ed756484dbb2b012bdf0a61b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -20212,6 +20212,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 862152243}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &865779851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8064322613003836205, guid: c8a1acab4ad4ac943b70dbb846e36061,
+    type: 3}
+  m_PrefabInstance: {fileID: 8064322613430341926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &865779852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865779851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevel: GD2
+  levelToUnlock: 2
 --- !u!1001 &890139240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47763,16 +47783,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1020265454555742780}
+      - m_Target: {fileID: 1020265454555742756}
         m_TargetAssemblyTypeName: ButtonFunc, Assembly-CSharp
-        m_MethodName: LevelPage
+        m_MethodName: LevelPageDesert
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: DesertLevel
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 297537897}
@@ -47799,7 +47819,7 @@ GameObject:
   - component: {fileID: 1020265454555742783}
   - component: {fileID: 1020265454555742782}
   - component: {fileID: 1020265454555742753}
-  - component: {fileID: 1020265454555742780}
+  - component: {fileID: 1020265454555742756}
   m_Layer: 5
   m_Name: Level
   m_TagString: Untagged
@@ -47807,7 +47827,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1020265454555742780
+--- !u!114 &1020265454555742756
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48300,6 +48320,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpButton
       objectReference: {fileID: 0}
+    - target: {fileID: 1971490728743407307, guid: 083f5ac65f83be14ab162077fbfdc82f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 083f5ac65f83be14ab162077fbfdc82f, type: 3}
 --- !u!1 &1971490729353530088 stripped
@@ -48329,6 +48354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995565534301810643, guid: b52cc480500da4146b87d4aedc937872,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2995565534301810645, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}
@@ -48722,6 +48752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArrowsHorizontal
       objectReference: {fileID: 0}
+    - target: {fileID: 3365998140785904379, guid: 881f46420c1086240a082cf5ce7fac88,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 881f46420c1086240a082cf5ce7fac88, type: 3}
 --- !u!1 &3364885308528694601 stripped
@@ -48811,8 +48846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: GD2
-  levelToUnlock: 2
+  nextLevel: Desert2
+  levelToUnlock: 18
 --- !u!1001 &5664826725272553317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48859,6 +48894,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PauseButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664826726836378620, guid: 2fafdb28328b13148a8c565bb1f39202,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5664826726836378622, guid: 2fafdb28328b13148a8c565bb1f39202,
         type: 3}
@@ -49004,6 +49044,12 @@ PrefabInstance:
       propertyPath: pauseButton
       value: 
       objectReference: {fileID: 1564089497}
+    - target: {fileID: 8064322612975924514, guid: c8a1acab4ad4ac943b70dbb846e36061,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c0a77e5f6f6d98d4bb9dfb9b2be7b36a,
+        type: 3}
     - target: {fileID: 8064322612975924517, guid: c8a1acab4ad4ac943b70dbb846e36061,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -49079,6 +49125,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064322613003836203, guid: c8a1acab4ad4ac943b70dbb846e36061,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 865779852}
+    - target: {fileID: 8064322613003836203, guid: c8a1acab4ad4ac943b70dbb846e36061,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LevelPageDesert
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064322613003836203, guid: c8a1acab4ad4ac943b70dbb846e36061,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ButtonFunc, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064322613003836203, guid: c8a1acab4ad4ac943b70dbb846e36061,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064322613003836203, guid: c8a1acab4ad4ac943b70dbb846e36061,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: DesertLevel
       objectReference: {fileID: 0}
     - target: {fileID: 8064322613203960541, guid: c8a1acab4ad4ac943b70dbb846e36061,
         type: 3}
@@ -49332,7 +49403,8 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4278747364
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8064322613003836214, guid: c8a1acab4ad4ac943b70dbb846e36061, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c8a1acab4ad4ac943b70dbb846e36061, type: 3}
 --- !u!1001 &8100802187411616963
 PrefabInstance:
