@@ -107,4 +107,49 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Desert/Desert15.unity
     guid: 0a150980235132c49b168adb11a4cfb8
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow1.unity
+    guid: 765dc7536d0fb1e469a13164d435ad61
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow2.unity
+    guid: 088927fded79c3b4181830092dc5d615
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow3.unity
+    guid: 815b609128a521842ba6fcb4348ca993
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow4.unity
+    guid: bf126470a158cf94d842da2016b71b02
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow5.unity
+    guid: 578a15ff072c43a48977cd4f6a89f2f8
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow6.unity
+    guid: 5f8b15db77934cc4daed9741221456a7
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow7.unity
+    guid: 7ec16e8cd1b6e4b4391c609a327de8d1
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow8.unity
+    guid: 2c6b331c2509e804e80eeeef4725975f
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow9.unity
+    guid: 9f105cce65e18ee4fb82d4c1bd5e0732
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow10.unity
+    guid: a8850075e87d49240a10a071705012f9
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow11.unity
+    guid: 088ca5097dffd9244a2ec1ae9d27d31f
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow12.unity
+    guid: 06e1dd9fecb5b5d408ab34a4c9d258b8
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow13.unity
+    guid: 69dd24c2b84fbb147a7cfd98cf4deb34
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow14.unity
+    guid: d1fee2ff92fe0d149a2d15b27f7169ce
+  - enabled: 1
+    path: Assets/Scenes/Snow/Snow15.unity
+    guid: 154c010cc343e5b4caf7b7387e9e58e4
   m_configObjects: {}
