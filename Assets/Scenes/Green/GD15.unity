@@ -19776,7 +19776,7 @@ PrefabInstance:
     - target: {fileID: 4375653617009403347, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}
       propertyPath: nextLevel
-      value: Desert1
+      value: DesertLevel
       objectReference: {fileID: 0}
     - target: {fileID: 4375653617009403347, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}

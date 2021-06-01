@@ -8,11 +8,11 @@ public class LevelSelect : MonoBehaviour
  
     void Start()
     {
-        int levelReached = PlayerPrefs.GetInt("levelReached", 0);
+        int levelReached = PlayerPrefs.GetInt("levelReached", 1);
 
         for (int i = 0; i < levelButtons.Length; i++)
         {
-            if (i + 2 > levelReached)
+            if (i + 1 > levelReached)
             {
                 levelButtons[i].interactable = false;
             }

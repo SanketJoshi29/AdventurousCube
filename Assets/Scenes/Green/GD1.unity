@@ -68227,6 +68227,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: JumpButton
       objectReference: {fileID: 0}
+    - target: {fileID: 1971490728743407307, guid: 083f5ac65f83be14ab162077fbfdc82f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 083f5ac65f83be14ab162077fbfdc82f, type: 3}
 --- !u!1 &1971490729353530088 stripped
@@ -68256,6 +68261,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995565534301810643, guid: b52cc480500da4146b87d4aedc937872,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2995565534301810645, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}
@@ -68717,6 +68727,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PauseButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664826726836378620, guid: 2fafdb28328b13148a8c565bb1f39202,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5664826726836378622, guid: 2fafdb28328b13148a8c565bb1f39202,
         type: 3}
