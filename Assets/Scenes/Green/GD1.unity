@@ -45179,26 +45179,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1389243626}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1395336564 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8100802186617071894, guid: cddba8a447ddf4944b1fb13b6dc421ec,
-    type: 3}
-  m_PrefabInstance: {fileID: 8100802187411616963}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1395336570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395336564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextLevel: GD2
-  levelToUnlock: 2
 --- !u!1001 &1407771268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67163,7 +67143,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4375653617173314475}
         m_TargetAssemblyTypeName: ButtonFunc, Assembly-CSharp
-        m_MethodName: Next
+        m_MethodName: NextG
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -67184,7 +67164,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
 --- !u!1 &1020265453854595385
 GameObject:
   m_ObjectHideFlags: 0

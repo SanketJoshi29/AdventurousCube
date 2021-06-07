@@ -23,10 +23,27 @@ public class ButtonFunc : MonoBehaviour
         SceneManager.LoadScene("DesertLevel");
         Time.timeScale = 1f;
     }
+    public void LevelPageSnow()
+    {
+        SceneManager.LoadScene("SnowLevel");
+        Time.timeScale = 1f;
+    }
 
-    public void Next()
+    public void NextG()
     {
         PlayerPrefs.SetInt("levelReached", levelToUnlock);
+        SceneManager.LoadScene(nextLevel);
+    }
+
+    public void NextD()
+    {
+        PlayerPrefs.SetInt("levelReachedD", levelToUnlock);
+        SceneManager.LoadScene(nextLevel);
+    }
+
+    public void NextS()
+    {
+        PlayerPrefs.SetInt("levelReachedS", levelToUnlock);
         SceneManager.LoadScene(nextLevel);
     }
     
