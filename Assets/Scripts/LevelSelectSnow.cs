@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -8,7 +8,7 @@ public class LevelSelectSnow : MonoBehaviour
  
     void Start()
     {
-        int levelReachedS = PlayerPrefs.GetInt("levelReached", 1);
+        int levelReachedS = PlayerPrefs.GetInt("levelReachedS", 1);
 
         for (int i = 0; i < levelButtons.Length; i++)
         {
