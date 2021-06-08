@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -8,7 +8,7 @@ public class LevelSelectDesert : MonoBehaviour
  
     void Start()
     {
-        int levelReachedD = PlayerPrefs.GetInt("levelReached", 1);
+        int levelReachedD = PlayerPrefs.GetInt("levelReachedD", 1);
 
         for (int i = 0; i < levelButtons.Length; i++)
         {
