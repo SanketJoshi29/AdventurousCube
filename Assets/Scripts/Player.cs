@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float moveForward = 500f;
     public float moveSideWays = 500f;
 
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -30,4 +31,6 @@ public class Player : MonoBehaviour
     {
         rb.constraints = RigidbodyConstraints.None;
     }
+
+    
 }

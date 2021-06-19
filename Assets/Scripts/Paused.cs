@@ -8,6 +8,7 @@ public class Paused : MonoBehaviour
     public GameObject touch;
     public GameObject jumpButton;
     public GameObject pauseButton;
+    public AudioSource music;
     // Update is called once per frame
     void Update()
     {
@@ -22,8 +23,14 @@ public class Paused : MonoBehaviour
         touch.SetActive(false);
         jumpButton.SetActive(false);
         pauseButton.SetActive(false);
-        
+
+        if(GameIsPaused)
+        {
+            music.Pause();
+        }
     }
+
+    
 
     public void Resume()
     {
@@ -33,5 +40,10 @@ public class Paused : MonoBehaviour
         touch.SetActive(true);
         jumpButton.SetActive(true);
         pauseButton.SetActive(true);
+
+        if(GameIsPaused == false)
+        {
+            music.Play();
+        }
     }
 }

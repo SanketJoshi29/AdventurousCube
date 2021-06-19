@@ -17,16 +17,19 @@ public class ButtonFunc : MonoBehaviour
     {
         SceneManager.LoadScene("GreenLevel");
         Time.timeScale = 1f;
+        BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Play();
     }
     public void LevelPageDesert()
     {
         SceneManager.LoadScene("DesertLevel");
         Time.timeScale = 1f;
+        BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Play();
     }
     public void LevelPageSnow()
     {
         SceneManager.LoadScene("SnowLevel");
         Time.timeScale = 1f;
+        BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Play();
     }
 
     public void NextG()
