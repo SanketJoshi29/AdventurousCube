@@ -60713,13 +60713,23 @@ PrefabInstance:
     - target: {fileID: 928970764335173512, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextS
+      value: Next
       objectReference: {fileID: 0}
     - target: {fileID: 928970764335173512, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 8300000, guid: 7219b1409838d5c48b5610bb850cc5ad, type: 3}
+    - target: {fileID: 928970764335173512, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 928970764335173512, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Snow3
+      objectReference: {fileID: 0}
     - target: {fileID: 928970764335173515, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
         type: 3}
       propertyPath: m_Sprite
@@ -60791,6 +60801,11 @@ PrefabInstance:
       propertyPath: music
       value: 
       objectReference: {fileID: 2995565534203335749}
+    - target: {fileID: 5499293298857022222, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
+        type: 3}
+      propertyPath: pauseMenuUI
+      value: 
+      objectReference: {fileID: 201795545242588866}
     - target: {fileID: 7865203915372527568, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
         type: 3}
       propertyPath: m_Sprite
@@ -60942,6 +60957,12 @@ MonoBehaviour:
 --- !u!82 &201795545242588865 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 7580770032266102349, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
+    type: 3}
+  m_PrefabInstance: {fileID: 201795545242588863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &201795545242588866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7865203915888033816, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
     type: 3}
   m_PrefabInstance: {fileID: 201795545242588863}
   m_PrefabAsset: {fileID: 0}
@@ -62092,7 +62113,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8259b6b5022901e488be8effda9088ca, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0

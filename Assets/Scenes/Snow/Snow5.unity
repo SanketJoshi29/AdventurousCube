@@ -6896,7 +6896,7 @@ PrefabInstance:
     - target: {fileID: 928970764335173512, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextS
+      value: Next
       objectReference: {fileID: 0}
     - target: {fileID: 928970764335173512, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
         type: 3}
@@ -6913,6 +6913,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 8300000, guid: 7219b1409838d5c48b5610bb850cc5ad, type: 3}
+    - target: {fileID: 928970764335173512, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 928970764335173512, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Snow6
+      objectReference: {fileID: 0}
     - target: {fileID: 928970764335173515, guid: 7d18b9bf936f25d4fbbfdda9152f1efb,
         type: 3}
       propertyPath: m_Sprite
@@ -59064,7 +59074,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2995565534203335747}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 48d13c624afa8d04aa51a3339cd54dcf, type: 3}

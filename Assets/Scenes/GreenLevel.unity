@@ -3363,25 +3363,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1110039447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18e06aedf7f1d084b9f67c4a450673d7, type: 3}
+  m_Script: {fileID: 11500000, guid: b6690b7f3bb9c4f4ca37aa7c42895c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelButtons:
-  - {fileID: 482355238}
-  - {fileID: 854819165}
-  - {fileID: 1771974090}
-  - {fileID: 1192642959}
-  - {fileID: 158149091}
-  - {fileID: 1596294869}
-  - {fileID: 1018306273}
-  - {fileID: 1948706408}
-  - {fileID: 846818595}
-  - {fileID: 1114776817}
-  - {fileID: 126630183}
-  - {fileID: 322661124}
-  - {fileID: 2139685947}
-  - {fileID: 701611551}
-  - {fileID: 1875188454}
 --- !u!4 &1110039449
 Transform:
   m_ObjectHideFlags: 0
