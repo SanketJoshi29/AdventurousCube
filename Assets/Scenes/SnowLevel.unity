@@ -307,7 +307,7 @@ RectTransform:
   m_GameObject: {fileID: 126630181}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_Children:
   - {fileID: 1272761780}
   m_Father: {fileID: 114163726}
@@ -316,7 +316,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -75.04553, y: -39.69}
-  m_SizeDelta: {x: 75, y: 58.497833}
+  m_SizeDelta: {x: 75, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &126630183
 MonoBehaviour:
@@ -4035,7 +4035,7 @@ GameObject:
   - component: {fileID: 1397341176}
   - component: {fileID: 1397341175}
   m_Layer: 0
-  m_Name: LevelSelector2
+  m_Name: LevelSelector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4050,25 +4050,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1397341174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9c1d1bc6a24ac94a90c004e3695c4a9, type: 3}
+  m_Script: {fileID: 11500000, guid: b6690b7f3bb9c4f4ca37aa7c42895c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelButtons:
-  - {fileID: 482355238}
-  - {fileID: 854819165}
-  - {fileID: 1771974090}
-  - {fileID: 1192642959}
-  - {fileID: 158149091}
-  - {fileID: 1596294869}
-  - {fileID: 1018306273}
-  - {fileID: 1948706408}
-  - {fileID: 846818595}
-  - {fileID: 1114776817}
-  - {fileID: 126630183}
-  - {fileID: 322661124}
-  - {fileID: 2139685947}
-  - {fileID: 701611551}
-  - {fileID: 1875188454}
 --- !u!4 &1397341176
 Transform:
   m_ObjectHideFlags: 0

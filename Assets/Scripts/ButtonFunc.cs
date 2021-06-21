@@ -4,9 +4,6 @@ using UnityEngine.UI;
 
 public class ButtonFunc : MonoBehaviour
 {   
-    public string nextLevel = "GD2";
-    public int levelToUnlock = 2;
-
     public void RestartButton()
     {
         FindObjectOfType<GameManager>().Restart();
@@ -32,22 +29,15 @@ public class ButtonFunc : MonoBehaviour
         BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Play();
     }
 
-    public void NextG()
+    public void Next(string levelName)
     {
-        PlayerPrefs.SetInt("levelReached", levelToUnlock);
-        SceneManager.LoadScene(nextLevel);
+        SceneManager.LoadScene(levelName);
     }
 
-    public void NextD()
+    public void NextM(string levelName)
     {
-        PlayerPrefs.SetInt("levelReachedD", levelToUnlock);
-        SceneManager.LoadScene(nextLevel);
-    }
-
-    public void NextS()
-    {
-        PlayerPrefs.SetInt("levelReachedS", levelToUnlock);
-        SceneManager.LoadScene(nextLevel);
+        SceneManager.LoadScene(levelName);
+        BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Play();
     }
     
 }
