@@ -79547,6 +79547,61 @@ PrefabInstance:
       propertyPath: m_OcclusionCulling
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: m_AllowMSAA
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: m_Depth
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: m_FOVAxisMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672888639184485853, guid: 8cdc9ec861c5d514fbd6e02233321c69,
+        type: 3}
+      propertyPath: m_projectionMatrixMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8672888639184485855, guid: 8cdc9ec861c5d514fbd6e02233321c69,
         type: 3}
       propertyPath: player

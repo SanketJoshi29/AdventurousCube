@@ -7,10 +7,4 @@ public class PauseBGSound : MonoBehaviour
     {
         BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Stop();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
