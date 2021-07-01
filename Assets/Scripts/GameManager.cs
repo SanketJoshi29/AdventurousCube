@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     public int target = 60;
 
-    public void Update()
+    public void FixedUpdate()
     {
         if (target != Application.targetFrameRate)
         {
