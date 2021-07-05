@@ -47297,6 +47297,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftTerrain
       objectReference: {fileID: 0}
+    - target: {fileID: 1965239351233528185, guid: 4006c8c7a212e5243bc5456dad347d2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1965239351233528186, guid: 4006c8c7a212e5243bc5456dad347d2a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47405,7 +47410,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 8300000, guid: f15beb3230811804a8274af8fa08b11f, type: 3}
+      objectReference: {fileID: 8300000, guid: 93c14d70c9a4a2d4696b21d39f704aa3, type: 3}
     - target: {fileID: 1971490728743407305, guid: 083f5ac65f83be14ab162077fbfdc82f,
         type: 3}
       propertyPath: player
@@ -47907,6 +47912,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RightTerrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 3201356510281017214, guid: f05c689878bc82d4aa4148714230e72e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f05c689878bc82d4aa4148714230e72e, type: 3}
