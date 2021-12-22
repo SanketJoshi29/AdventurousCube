@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     public GameObject completeLevelUI;
     public GameObject touch;
     public GameObject jumpButton;
-
     public GameObject pauseButton;
 
     public int target = 60;
@@ -44,6 +43,4 @@ public class GameManager : MonoBehaviour
         jumpButton.SetActive(false);
         pauseButton.SetActive(false);
     }
-
-
 }

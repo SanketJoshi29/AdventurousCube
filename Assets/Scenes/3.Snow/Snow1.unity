@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.8113208, g: 0.79218584, b: 0.79218584, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
@@ -20395,6 +20395,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: GD2
+  levelToUnlock: 2
+  nextLevelD: Desert2
+  levelToUnlockD: 2
+  nextLevelS: Snow2
+  levelToUnlockS: 2
+  nextLevelSea: Sea2
+  levelToUnlockSea: 2
 --- !u!1 &884406283
 GameObject:
   m_ObjectHideFlags: 0
@@ -47557,6 +47565,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: GD2
+  levelToUnlock: 2
+  nextLevelD: Desert2
+  levelToUnlockD: 2
+  nextLevelS: Snow2
+  levelToUnlockS: 2
+  nextLevelSea: Sea2
+  levelToUnlockSea: 2
 --- !u!114 &1020265452742566094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48146,8 +48162,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4375653617173314475}
         m_TargetAssemblyTypeName: ButtonFunc, Assembly-CSharp
-        m_MethodName: Next
-        m_Mode: 5
+        m_MethodName: NextS
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -48893,6 +48909,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: GD2
+  levelToUnlock: 2
+  nextLevelD: Desert2
+  levelToUnlockD: 2
+  nextLevelS: Snow2
+  levelToUnlockS: 2
+  nextLevelSea: Sea2
+  levelToUnlockSea: 2
 --- !u!114 &1020265454555742782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49712,7 +49736,7 @@ PrefabInstance:
     - target: {fileID: 2995565534301810642, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}
       propertyPath: moveSideWays
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2995565534301810643, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}
@@ -50151,6 +50175,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: GD2
+  levelToUnlock: 2
+  nextLevelD: Desert2
+  levelToUnlockD: 2
+  nextLevelS: Snow2
+  levelToUnlockS: 2
+  nextLevelSea: Sea2
+  levelToUnlockSea: 2
 --- !u!1001 &5100399253194363962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50426,10 +50458,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6414029878428534221, guid: fe20e62c0b1ff5644a0b5902145d6a41,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414029879632487250, guid: fe20e62c0b1ff5644a0b5902145d6a41,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414029879632487250, guid: fe20e62c0b1ff5644a0b5902145d6a41,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 378.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414029880126137528, guid: fe20e62c0b1ff5644a0b5902145d6a41,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414029880319333109, guid: fe20e62c0b1ff5644a0b5902145d6a41,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6812133468112740917, guid: fe20e62c0b1ff5644a0b5902145d6a41,
         type: 3}
       propertyPath: m_Name
       value: LeftTerrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812133468112740917, guid: fe20e62c0b1ff5644a0b5902145d6a41,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6812133468112740918, guid: fe20e62c0b1ff5644a0b5902145d6a41,
         type: 3}
@@ -50495,6 +50557,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7092946004958012525, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092946005003246671, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092946005085771952, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092946005351331495, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092946005504640489, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092946005708532920, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092946005787911786, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092946005990493886, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092946006048385243, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.3
+      objectReference: {fileID: 0}
     - target: {fileID: 7342430565692246681, guid: 1f892305b86102b4bbe7014000d47678,
         type: 3}
       propertyPath: m_RootOrder
@@ -50554,6 +50661,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RightTerrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342430565692246686, guid: 1f892305b86102b4bbe7014000d47678,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f892305b86102b4bbe7014000d47678, type: 3}

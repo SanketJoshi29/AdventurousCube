@@ -8967,9 +8967,19 @@ PrefabInstance:
       objectReference: {fileID: 2995565534203335746}
     - target: {fileID: 8100802186617071893, guid: cddba8a447ddf4944b1fb13b6dc421ec,
         type: 3}
+      propertyPath: nextLevel
+      value: GD3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100802186617071893, guid: cddba8a447ddf4944b1fb13b6dc421ec,
+        type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1259969369193479417}
+    - target: {fileID: 8100802186617071893, guid: cddba8a447ddf4944b1fb13b6dc421ec,
+        type: 3}
+      propertyPath: levelToUnlock
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8100802186617071893, guid: cddba8a447ddf4944b1fb13b6dc421ec,
         type: 3}
       propertyPath: levelCompleteAudio
@@ -12989,7 +12999,7 @@ PrefabInstance:
     - target: {fileID: 1020265453754255183, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1020265453754255183, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}
@@ -46955,6 +46965,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1965239351149791681, guid: 4006c8c7a212e5243bc5456dad347d2a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1965239351233528185, guid: 4006c8c7a212e5243bc5456dad347d2a,
         type: 3}
       propertyPath: m_Name
@@ -61327,7 +61342,7 @@ PrefabInstance:
     - target: {fileID: 2995565534301810642, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}
       propertyPath: moveSideWays
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2995565534301810643, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}
