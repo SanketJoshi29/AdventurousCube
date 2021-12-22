@@ -12494,7 +12494,7 @@ PrefabInstance:
     - target: {fileID: 1020265453754255183, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1020265453754255183, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}
@@ -12514,7 +12514,7 @@ PrefabInstance:
     - target: {fileID: 1020265453754255183, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Next
+      value: NextD
       objectReference: {fileID: 0}
     - target: {fileID: 1020265453754255183, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}
@@ -12675,7 +12675,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4375653617009403347, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
         type: 3}
+      propertyPath: nextLevelD
+      value: Desert13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375653617009403347, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
+        type: 3}
       propertyPath: levelToUnlock
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4375653617009403347, guid: a41fbdd06d52fb74aa6b69e93b8fc986,
+        type: 3}
+      propertyPath: levelToUnlockD
       value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -57941,7 +57951,7 @@ PrefabInstance:
     - target: {fileID: 2995565534301810642, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}
       propertyPath: moveSideWays
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2995565534301810643, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}

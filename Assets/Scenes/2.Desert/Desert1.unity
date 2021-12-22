@@ -20009,6 +20009,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: GD2
+  levelToUnlock: 2
+  nextLevelD: Desert2
+  levelToUnlockD: 2
+  nextLevelS: Snow2
+  levelToUnlockS: 2
+  nextLevelSea: Sea2
+  levelToUnlockSea: 2
 --- !u!1001 &890139240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46519,6 +46527,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: GD2
+  levelToUnlock: 2
+  nextLevelD: Desert2
+  levelToUnlockD: 2
+  nextLevelS: Snow2
+  levelToUnlockS: 2
+  nextLevelSea: Sea2
+  levelToUnlockSea: 2
 --- !u!114 &1020265452742566094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47108,8 +47124,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4375653617173314475}
         m_TargetAssemblyTypeName: ButtonFunc, Assembly-CSharp
-        m_MethodName: Next
-        m_Mode: 5
+        m_MethodName: NextD
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -47855,6 +47871,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: GD2
+  levelToUnlock: 2
+  nextLevelD: Desert2
+  levelToUnlockD: 2
+  nextLevelS: Snow2
+  levelToUnlockS: 2
+  nextLevelSea: Sea2
+  levelToUnlockSea: 2
 --- !u!114 &1020265454555742782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48372,7 +48396,7 @@ PrefabInstance:
     - target: {fileID: 2995565534301810642, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}
       propertyPath: moveSideWays
-      value: 30
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2995565534301810643, guid: b52cc480500da4146b87d4aedc937872,
         type: 3}
@@ -48880,6 +48904,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626b03f7edca92f4c85b87feab015c38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextLevel: GD2
+  levelToUnlock: 2
+  nextLevelD: Desert2
+  levelToUnlockD: 2
+  nextLevelS: Snow2
+  levelToUnlockS: 2
+  nextLevelSea: Sea2
+  levelToUnlockSea: 2
 --- !u!1001 &5664826725272553317
 PrefabInstance:
   m_ObjectHideFlags: 0

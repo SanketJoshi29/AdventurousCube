@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SnowLevel.unity
     guid: 942afbfd33b838249adbee0fb3a40547
   - enabled: 1
+    path: Assets/Scenes/SeaLevel.unity
+    guid: 921deb743f5d4e540a291e6555e98699
+  - enabled: 1
     path: Assets/Scenes/1.Green/GD1.unity
     guid: 2f8db37e46dce7a4c9a55b24f58ef2e9
   - enabled: 1
@@ -152,4 +155,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3.Snow/Snow15.unity
     guid: 154c010cc343e5b4caf7b7387e9e58e4
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea1.unity
+    guid: 91d3e90ab84427f42a99a997f64be02b
   m_configObjects: {}
