@@ -157,5 +157,47 @@ EditorBuildSettings:
     guid: 154c010cc343e5b4caf7b7387e9e58e4
   - enabled: 1
     path: Assets/Scenes/4.Sea/Sea1.unity
+    guid: e4ec63389104d7948b86e1a9f302d43a
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea2.unity
     guid: 91d3e90ab84427f42a99a997f64be02b
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea3.unity
+    guid: 931edc4143326ce439c89676667a197d
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea4.unity
+    guid: 1aaa6ef8c46c5634ba6f1312211b6647
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea5.unity
+    guid: b1c7970a53218b347b9e6d83d8348b28
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea6.unity
+    guid: 8d6a086632bafcb4ea1eee228c307218
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea7.unity
+    guid: f247e7e091f5c904b98a7e812b2deffe
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea8.unity
+    guid: a70cd2b4bd1718b43a8f3755200c60c4
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea9.unity
+    guid: d1e6214b31e94374db940642aec265b4
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea10.unity
+    guid: 1fa5e52934696bd4da32c91cffc171a6
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea11.unity
+    guid: 7eef4acf41fc7f64e9b4b9b5dd0d6db1
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea12.unity
+    guid: 04d203bb2d593bb4eaeba90c63d14214
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea13.unity
+    guid: 2df938ee3c476e645946c85e4400c41a
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea14.unity
+    guid: 8fd5f8ba7c9859b47a3fe7b4539bc850
+  - enabled: 1
+    path: Assets/Scenes/4.Sea/Sea15.unity
+    guid: 4c1f614f2258e354bafda8c8b258f0ba
   m_configObjects: {}
