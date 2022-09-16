@@ -1245,7 +1245,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ADVENTUROUS  CUBE
+  m_text: ADVENTURE LIFE OF  CUBE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82cd777abd8437a43a4ae8ed2ef1ec58, type: 2}
   m_sharedMaterial: {fileID: -6110490946215894076, guid: 82cd777abd8437a43a4ae8ed2ef1ec58,
@@ -1284,7 +1284,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 20
-  m_wordSpacing: 0
+  m_wordSpacing: -40.9
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
