@@ -27,7 +27,6 @@ public class MuteManager : MonoBehaviour
     {
         isMuted = !isMuted;
         AudioListener.pause = isMuted;
-
         UpdateButtonIcon();
         Save();
     }
